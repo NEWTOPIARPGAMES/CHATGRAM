@@ -1,0 +1,27 @@
+{
+  "name": "chatgram",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "pkg . --output index.exe",
+    "build": "pkg . --output index.exe"
+  },
+  "keywords": [],
+  "author": "ALESSANDRO",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^30.0.1",
+    "nodemon": "^3.1.0",
+    "pkg": "^5.8.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "electron-builder": "^24.13.3",
+    "express": "^4.19.2",
+    "nexe": "^4.0.0-rc.4",
+    "nodemailer": "^6.9.13",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  }
+}
